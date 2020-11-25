@@ -3,7 +3,7 @@ class TodoList < ApplicationRecord
  
   def percent_completed
     return 0 if total_items == 0
-    ( 100 * completed_items.to_f / total_items)  
+    ( 100 * completed_items.to_f / total_items).round(1)  
   end
 
   def completed_items 

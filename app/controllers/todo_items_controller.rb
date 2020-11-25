@@ -26,6 +26,7 @@ class TodoItemsController < ApplicationController
 
     if @todo_item.save
       redirect_to(@todo_item.todo_list)
+    else
       render action: 'new'
     end
   end
