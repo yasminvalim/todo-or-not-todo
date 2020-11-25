@@ -19,14 +19,14 @@
 </div>
 
 <div class="card-body">
-  <div class="input-group mb-1">
-    <input type="text" class="form-control" placeholder="Add new item todo!">
-    <div class="input-group-append">
-      <div class="input-group-btn-append">
-        <a href='#', class="btn btn-info text-light" aria-describedby="basic-addon2">ADD</a>
+  <%= form_for([@todo_list, @todo_item]) do |f| %>
+      <div class="input-group mb-1">
+      <%= f.text_field :description, class: 'form-control', placeholder:'Add new item to do!'%>
+        <div class="input-group-append">
+          <%= f.submit "Add", class:"btn btn-info text-light input-group-btn"%>
+        </div> 
       </div>
-    </div>
-  </div> 
+  <% end %>
 </div>
 
 
