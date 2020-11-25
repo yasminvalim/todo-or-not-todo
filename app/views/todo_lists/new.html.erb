@@ -1,5 +1,16 @@
-<h1>New Todo List</h1>
+<div class="card-header bg-white">
+<h1>NEW TO DO LIST</h1>
+</div>
 
 <%= render 'form', todo_list: @todo_list %>
 
-<%= link_to 'Back', todo_lists_path %>
+<div class="card-header bg-white">
+  <div class="row">
+    <div class="col-2">
+    <%=link_to todo_lists_path, class:"btn btn-secondary" do %>
+      <i class="fa fa-arrow-left"></i>
+     <% end %>
+    </div> 
+  </div>
+</div>
+

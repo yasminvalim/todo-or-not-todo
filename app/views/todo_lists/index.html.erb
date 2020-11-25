@@ -1,8 +1,12 @@
 <div class="card-header d-flex justify-content-between">
-  <span class>
-  Todo Lists
+  <span class="card-title">
+  <h3><b>Todo Lists</h3></b>
   </span>
-  <%= link_to 'New Todo List', new_todo_list_path, class:"btn btn-sm btn-outline-dark"%>
+  <span class="card-title">
+  <%= link_to new_todo_list_path, class:"btn btn-sm btn-info" do %>
+      <i class="fa fa-plus text-light"> </i>
+  <% end %>
+  </span>
 </div>
 
 <ul class="list-group">
