@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<b> TO DO LIST </b>  :heavy_check_mark: :bookmark_tabs:
+<hr>
+This is a simple project using Rails 6 and Stimulus Reflex. <br>
+I really enjoy to use this new technology and it was very fun!
+Thanks to TechmakerTV and GoRails that made usefull classes that help me to get started with Stimulus.js!
